@@ -11,19 +11,19 @@ export const contentData = {
     social: [
       {
         icon: <GitHubIcon />,
-        path: "",
+        path: "https://github.com/HKLin0619?tab=repositories",
       },
       {
         icon: <LinkedInIcon />,
-        path: "",
+        path: "https://linkedin.com/in/heng-kang-lin-7a87562b5",
       },
       {
         icon: <InstagramIcon />,
-        path: "",
+        path: "https://www.instagram.com/kanglin0619/",
       },
       {
-        icon: <FacebookIcon  />,
-        path: "",
+        icon: <FacebookIcon />,
+        path: "https://www.facebook.com/kanglin.heng.71",
       },
     ],
   },
@@ -259,7 +259,7 @@ export const contentData = {
       {
         icon: <PhoneIcon fontSize="small" />,
         label: "Phone",
-        name: "+60 10217 5708",
+        name: "+60 10-217 5708",
       },
       {
         icon: <EmailIcon fontSize="small" />,
@@ -303,19 +303,19 @@ export const footerData = {
   social: [
     {
       icon: <GitHubIcon />,
-      path: "",
+      path: "https://github.com/HKLin0619?tab=repositories",
     },
     {
       icon: <LinkedInIcon />,
-      path: "",
+      path: "https://linkedin.com/in/heng-kang-lin-7a87562b5",
     },
     {
-      icon: <InstagramIcon  />,
-      path: "",
+      icon: <InstagramIcon />,
+      path: "https://www.instagram.com/kanglin0619/",
     },
     {
-      icon: <FacebookIcon/>,
-      path: "",
+      icon: <FacebookIcon />,
+      path: "https://www.facebook.com/kanglin.heng.71",
     },
   ],
 };

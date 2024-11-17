@@ -61,7 +61,7 @@ function HomeScreen({ data }) {
               {social.map((item, index) => (
                 <IconButton
                   key={index}
-                  onClick={() => (window.location.href = item.path)}
+                  onClick={() => window.open(item.path, "_blank")}
                   size="small"
                   sx={{
                     color: "white",
@@ -69,7 +69,7 @@ function HomeScreen({ data }) {
                     border: "2px solid black",
                     borderRadius: "50%",
                     "&:hover": {
-                      bgcolor: "white", 
+                      bgcolor: "white",
                       color: "black",
                     },
                   }}

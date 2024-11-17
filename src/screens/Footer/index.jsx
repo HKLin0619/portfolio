@@ -41,7 +41,7 @@ function FooterScreen({ data }) {
             {social.map((item, index) => (
               <IconButton
                 key={index}
-                onClick={() => (window.location.href = item.path)}
+                onClick={() => window.open(item.path, "_blank")}
                 size="small"
                 sx={{ color: "white" }}
               >
