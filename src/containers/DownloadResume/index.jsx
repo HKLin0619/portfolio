@@ -13,8 +13,8 @@ function DownloadResumeContainer() {
         bgcolor: "black",
         color: "white",
       }}
-      
-      onClick={() => saveAs("/assets/doc/resume.pdf", "resume.pdf")}
+
+      onClick={() => saveAs("/resume.pdf", "resume.pdf")}
     >
       Download Resume
     </Button>
