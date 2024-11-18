@@ -68,8 +68,9 @@ export default function TopAppBar() {
         </IconButton>
 
         <Box sx={{ display: { xs: "none", md: "flex" }, gap: 5 }}>
-          {navigationData.map((item) => (
+          {navigationData.map((item, index) => (
             <Button
+              key={index}
               onClick={() => {
                 navigate(item.path);
                 window.scrollTo({

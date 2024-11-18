@@ -1,14 +1,8 @@
 import React from "react";
-import {
-  Box,
-  Button,
-  Divider,
-  Grid2,
-  Stack,
-  TextField,
-} from "@mui/material";
+import { Box, Divider, Grid2, Stack } from "@mui/material";
 import Body2 from "../../components/Body2";
 import SectionTitle from "../../components/SectionTitle";
+import FormContainer from "../../containers/Form";
 
 function ContactScreen({ data }) {
   const { contact, info } = data;
@@ -57,24 +51,7 @@ function ContactScreen({ data }) {
               </SectionTitle>
 
               <Box sx={{ border: "2px solid black", borderRadius: 5, p: 5 }}>
-                <Stack direction="column" spacing={2}>
-                  <TextField
-                    fullWidth
-                    id="name"
-                    label="Name"
-                    variant="outlined"
-                  />
-                  <TextField
-                    fullWidth
-                    id="email"
-                    label="Email"
-                    variant="outlined"
-                  />
-                  <TextField id="message" label="Message" multiline rows={6} />
-                  <Button variant="contained" sx={{ bgcolor: "black" }}>
-                    Submit
-                  </Button>
-                </Stack>
+                <FormContainer />
               </Box>
             </Stack>
           </Box>
