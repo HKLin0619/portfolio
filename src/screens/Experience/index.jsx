@@ -80,11 +80,16 @@ function ExperienceScreen({ data, id }) {
                                 sx={{
                                   lineHeight: 1.5,
                                   textAlign: "justify",
-                                  textIndent: "-0.6rem",
-                                  paddingLeft: "1rem",
+                                  textIndent: "-0.5rem",
+                                  paddingLeft: "2rem",
+                                  "&::before": {
+                                    content: '"- "',
+                                    display: "inline-block",
+                                    width: "0.5rem",
+                                  },
                                 }}
                               >
-                                - {item}
+                                {item}
                               </Body2>
                             ))}
                           </Stack>

@@ -107,12 +107,25 @@ export default function TopAppBar() {
           <Box
             sx={{
               display: "flex",
-              justifyContent: "end",
+              justifyContent: "space-between",
+              alignItems: "center",
               pt: 1,
               pb: 1,
               pr: 2,
+              pl: 2,
+              
             }}
           >
+            <Typography
+              sx={{
+                color: "black",
+                fontSize: { xs: "1.5rem", md: "2rem" },
+                fontWeight: "bold",
+                fontFamily: "monospace",
+              }}
+            >
+              HKL
+            </Typography>
             <IconButton
               sx={{ color: "black" }}
               onClick={() => {
