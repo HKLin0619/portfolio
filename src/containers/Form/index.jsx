@@ -28,7 +28,8 @@ function FormContainer() {
       `Company: ${company}\nEmail: ${email}\nPhone: ${phone}\n\nHi, I am ${name}.\n ${message}`
     );
 
-    const whatsappURL = `https://wa.me/60123456789?text=${encodedMessage}`;
+    const whatsappURL = `https://wa.me/60102175708?text=${encodedMessage}`;
+
 
     window.open(whatsappURL, "_blank");
   };
