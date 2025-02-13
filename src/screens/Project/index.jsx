@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Grid2, Stack, Link } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
+import WorkIcon from "@mui/icons-material/Work";
 import SectionTitle from "../../components/SectionTitle";
 import Title from "../../components/Title";
 import Body2 from "../../components/Body2";
@@ -51,22 +52,32 @@ function ProjectScreen({ data, id }) {
                     <Grid2 container spacing={{ xs: 1, md: 2 }}>
                       <Grid2 size={{ xs: 12, md: 12 }}>
                         <Stack direction="row" alignItems="center" spacing={1}>
-                          <GitHubIcon />
-                          <Body2 sx={{ fontWeight: "bold" }}>
-                            Github :
-                            {item.github ? (
-                              <Link
-                                href={item.github}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                              >
-                                {item.github}
-                              </Link>
-                            ) : (
-                              " -"
-                            )}
-                          </Body2>
+                          <WorkIcon fontSize="small" />
+                          <Body2 sx={{ fontWeight: "bold" }}>Position :</Body2>
                         </Stack>
+                        <Body2 sx={{ mb: { xs: 1, md: 0 } }}>
+                          {item.position}
+                        </Body2>
+                      </Grid2>
+
+                      <Grid2 size={{ xs: 12, md: 12 }}>
+                        <Stack direction="row" alignItems="center" spacing={1}>
+                          <GitHubIcon fontSize="small" />
+                          <Body2 sx={{ fontWeight: "bold" }}> Github :</Body2>
+                        </Stack>
+                        <Body2 sx={{ mb: { xs: 1, md: 0 } }}>
+                          {item.github ? (
+                            <Link
+                              href={item.github}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >
+                              {item.github}
+                            </Link>
+                          ) : (
+                            " -"
+                          )}
+                        </Body2>
                       </Grid2>
                     </Grid2>
 
