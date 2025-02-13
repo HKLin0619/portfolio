@@ -35,9 +35,9 @@ export const contentData = {
     background: {
       title: "Background",
       description: [
-        "I am a Bachelor of Information Technology (Hons) graduate with front-end development experience.",
-        "My part-time work and university activities as an event crew member and promoter have strengthened my communication and teamwork skills, making me adaptable in diverse environments.",
-        "I am seeking roles that allow me to combine technical expertise with strong people skills, aiming to grow in both tech and customer-facing fields.",
+        "I am a Bachelor of Information Technology (Hons) graduate with strong front-end development experience.",
+        "My part-time work and university activities as an event crew member have strengthened my communication and teamwork skills, allowing me to adapt to diverse environments.",
+        "I am looking for opportunities where I can apply both my technical expertise and interpersonal skills, enabling me to grow in both tech and customer-facing roles.",
       ],
     },
     skill: {
@@ -121,9 +121,9 @@ export const contentData = {
 
           time: "2016 - 2017",
           description: [
-            "Delegated tasks, oversaw, and supported the committee and members in their respective roles.",
-            "Hold regular meetings with team members to report on current work and challenges.",
-            "Record and archive the content of major meetings or activities held in the dormitory.",
+            "Delegated tasks, supervised team members, and provided support to ensure smooth operations.",
+            "Held regular meetings to review progress, address challenges, and coordinate tasks.",
+            "Recorded and archived key discussions and decisions from major meetings and dormitory activities.",
           ],
         },
         {
@@ -132,9 +132,9 @@ export const contentData = {
           school: "HELP University",
           time: "2022 - 2023",
           description: [
-            "Organized interesting and engaging events for society members and the public.",
-            "Communicated with and assisted team members.",
-            "Ensured that events ran smoothly and efficiently.",
+            "Organized engaging events for society members and the public to encourage participation.",
+            "Collaborated with team members to coordinate event logistics and execution.",
+            "Ensured smooth and efficient event operations by overseeing planning and on-site management.",
           ],
         },
       ],
@@ -156,15 +156,16 @@ export const contentData = {
             {
               name: "Technical Support",
               description: [
-                "Learned effective client communication strategies.",
-                "Resolved client issues with the medical system.",
+                "Assisted clients via phone calls to diagnose and resolve technical issues with the medical system.",
+                "Developed effective communication skills to provide clear guidance and support to clients.",
               ],
             },
             {
               name: "Tester",
               description: [
-                "Communicated effectively with developers to ensure the application was problem-free upon release.",
-                "Learned how to report or document the complete testing process.",
+                "Conducted software testing to identify issues and ensure application stability before release.",
+                "Documented the testing process, findings, and potential optimizations in detailed reports.",
+                "Collaborated with developers to troubleshoot and refine application performance.",
               ],
             },
           ],
@@ -177,10 +178,11 @@ export const contentData = {
             {
               name: "Front-End Developer",
               description: [
-                "Enhanced skills in React JS, Node JS, and GitHub.",
-                "Learned programming knowledge of Next JS.",
-                "Developed interfaces based on Figma designs provided by the design team.",
-                "Integrated APIs provided by back-end developers.",
+                "Developed web interfaces based on Figma designs provided by the design team.",
+                "Integrated APIs from back-end developers to ensure seamless data flow.",
+                "Tested the website's functionality and user-friendliness, reporting issues and debugging as needed.",
+                "Reported daily progress and updates to the project lead.",
+                "Enhanced skills in React.js, Next.js, Node.js, and GitHub.",
               ],
             },
           ],
@@ -193,9 +195,10 @@ export const contentData = {
             {
               name: "Promoter",
               description: [
-                "Provided product samples and sold items at the booth.",
-                "Improved communication skills and confidence when interacting with strangers.",
-                "Learned sales techniques.",
+                "Distributed food samples and promoted products to event attendees.",
+                "Engaged with customers to provide product information and encourage sales.",
+                "Enhanced communication skills and confidence when interacting with strangers.",
+                "Gained hands-on experience in sales techniques.",
               ],
             },
           ],
@@ -208,9 +211,42 @@ export const contentData = {
             {
               name: "Promoter",
               description: [
-                "To convey the challenges faced by animal shelters to the public.",
-                "To convey the concept of protecting stray animals to the public.",
-                "Improved communication skills and confidence when interacting with strangers.",
+                "Raised funds to support animal shelters and improve stray animal welfare.",
+                "Educated the public about the challenges faced by animal shelters and the importance of animal protection.",
+                "Engaged with strangers, enhancing communication skills and confidence.",
+              ],
+            },
+          ],
+        },
+        {
+          company: "Beutea",
+          type: "Part-Time",
+          time: "20/11/2024 - 13/12/2024",
+          position: [
+            {
+              name: "Barista & Cashier",
+              description: [
+                "Prepared and served beverages according to customer orders, ensuring quality and consistency.",
+                "Handled cash and digital transactions accurately while processing customer orders.",
+                "Maintained cleanliness and hygiene of the workspace to ensure a safe and pleasant environment.",
+                "Provided excellent customer service, ensuring a positive experience for guests.",
+              ],
+            },
+          ],
+        },
+        {
+          company: "Not Only Toy",
+          type: "Part-Time",
+          time: "02/01/2025 - 26/01/2025",
+          position: [
+            {
+              name: "Employee",
+              description: [
+                "Maintained cleanliness and organization of the event space, ensuring a tidy environment.",
+                "Assisted customers by answering inquiries about product availability and occasionally providing product recommendations.",
+                "Restocked shelves and labeled items in a timely manner to ensure smooth sales operations.",
+                "Monitored event area to prevent theft or damage to displayed items.",
+                "Assisted my boss with various tasks, including handling payments, retrieving stock, organizing inventory, and counting merchandise.",
               ],
             },
           ],
@@ -221,30 +257,36 @@ export const contentData = {
       title: "Project",
       project: [
         {
-          name: "ERC 20 Token Exchange",
-          // github: "-",
+          name: "ERC 20 Token Exchange (Final Year Project)",
+          position: "Project Leader & Front-End Developer",
+          github: "https://github.com/HKLin0619/TokenExchange",
           description: [
-            "Front-end developer and team leader.",
-            "My Final Year Project.",
-            "Developed system interfaces and coordinated with supervisor.",
+            "Led the project team and managed task delegation to ensure smooth development.",
+            "Designed and developed the entire system interface using React.js.",
+            "Regularly reported project progress to the university supervisor.",
+            "Coordinated team members' responsibilities to prevent issues and maintain workflow efficiency.",
           ],
         },
         {
-          name: "Unico Infotech",
+          name: "Unico Infotech (Internship Project)",
+          position: "Front-End Development Assistant",
           // github: "-",
           description: [
-            "Assisted with front-end development.",
-            "Projects participated in during the internship.",
-            "Developed modules, bug fixing, UI improvements, and API integration.",
+            "Assisted senior developers in front-end development and learning throughout the project.",
+            "Focused on the admin portal, while other teams handled the website and mobile application.",
+            "Developed the admin portal using Next.js and React.js, integrating APIs.",
+            "Tested and reviewed pages developed by senior developers, identifying bugs and UI/UX issues, then reporting and debugging them.",
+            "Completed assigned tasks within deadlines as delegated by senior developers."
           ],
         },
         {
-          name: "Sonobee",
+          name: "Sonobee  (Internship Project)",
+          position: "Front-End Developer",
           // github: "-",
           description: [
-            "Front-end developer.",
-            "Projects participated in during the internship.",
-            "Developed modules, bug fixing, UI improvements, API integration, maintained logic, and supported future updates.",
+            "Worked as a front-end developer, primarily responsible for the admin portal.",
+            "Developed the admin portal using Next.js and React.js.",
+            "Key responsibilities included module development, bug fixing, UI improvements, API integration, maintaining logic, and supporting future updates.",
           ],
         },
       ],

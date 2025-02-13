@@ -55,6 +55,16 @@ export default function TopAppBar() {
             fontSize: { xs: "1.5rem", md: "2rem" },
             fontWeight: "bold",
             fontFamily: "monospace",
+            "&:hover": {
+              cursor: "pointer", 
+            },
+          }}
+          onClick={() => {
+            navigate("/");
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth",
+            });
           }}
         >
           HKL
