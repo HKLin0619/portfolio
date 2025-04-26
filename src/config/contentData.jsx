@@ -188,69 +188,86 @@ export const contentData = {
           ],
         },
         {
-          company: "IKita Festival",
-          type: "Part-Time",
-          time: "30/08/2024 - 01/09/2024",
+          company: "Meteorsoft Sdn Bhd",
+          type: "Full Time",
+          time: "March 2025 - Present",
           position: [
             {
-              name: "Promoter",
+              name: "IT Support Engineer",
               description: [
-                "Distributed food samples and promoted products to event attendees.",
-                "Engaged with customers to provide product information and encourage sales.",
-                "Enhanced communication skills and confidence when interacting with strangers.",
-                "Gained hands-on experience in sales techniques.",
+                "Provided remote support via phone to assist customers in resolving issues related to the company's accounting system.",
+                "Strengthened communication skills through effective client interactions.",
+                "Improved real-time problem-solving abilities under pressure.",
+                "Enhanced technical skills related to computer systems and software troubleshooting.",
+                "Expanded knowledge of accounting systems and business processes.",
               ],
             },
           ],
         },
-        {
-          company: "Homeland Animals Shelter",
-          type: "Part-Time",
-          time: "17/09/2024 - 19/09/2024",
-          position: [
-            {
-              name: "Promoter",
-              description: [
-                "Raised funds to support animal shelters and improve stray animal welfare.",
-                "Educated the public about the challenges faced by animal shelters and the importance of animal protection.",
-                "Engaged with strangers, enhancing communication skills and confidence.",
-              ],
-            },
-          ],
-        },
-        {
-          company: "Beutea",
-          type: "Part-Time",
-          time: "20/11/2024 - 13/12/2024",
-          position: [
-            {
-              name: "Barista & Cashier",
-              description: [
-                "Prepared and served beverages according to customer orders, ensuring quality and consistency.",
-                "Handled cash and digital transactions accurately while processing customer orders.",
-                "Maintained cleanliness and hygiene of the workspace to ensure a safe and pleasant environment.",
-                "Provided excellent customer service, ensuring a positive experience for guests.",
-              ],
-            },
-          ],
-        },
-        {
-          company: "Not Only Toy",
-          type: "Part-Time",
-          time: "02/01/2025 - 26/01/2025",
-          position: [
-            {
-              name: "Employee",
-              description: [
-                "Maintained cleanliness and organization of the event space, ensuring a tidy environment.",
-                "Assisted customers by answering inquiries about product availability and occasionally providing product recommendations.",
-                "Restocked shelves and labeled items in a timely manner to ensure smooth sales operations.",
-                "Monitored event area to prevent theft or damage to displayed items.",
-                "Assisted my boss with various tasks, including handling payments, retrieving stock, organizing inventory, and counting merchandise.",
-              ],
-            },
-          ],
-        },
+        // {
+        //   company: "IKita Festival",
+        //   type: "Part-Time",
+        //   time: "30/08/2024 - 01/09/2024",
+        //   position: [
+        //     {
+        //       name: "Promoter",
+        //       description: [
+        //         "Distributed food samples and promoted products to event attendees.",
+        //         "Engaged with customers to provide product information and encourage sales.",
+        //         "Enhanced communication skills and confidence when interacting with strangers.",
+        //         "Gained hands-on experience in sales techniques.",
+        //       ],
+        //     },
+        //   ],
+        // },
+        // {
+        //   company: "Homeland Animals Shelter",
+        //   type: "Part-Time",
+        //   time: "17/09/2024 - 19/09/2024",
+        //   position: [
+        //     {
+        //       name: "Promoter",
+        //       description: [
+        //         "Raised funds to support animal shelters and improve stray animal welfare.",
+        //         "Educated the public about the challenges faced by animal shelters and the importance of animal protection.",
+        //         "Engaged with strangers, enhancing communication skills and confidence.",
+        //       ],
+        //     },
+        //   ],
+        // },
+        // {
+        //   company: "Beutea",
+        //   type: "Part-Time",
+        //   time: "20/11/2024 - 13/12/2024",
+        //   position: [
+        //     {
+        //       name: "Barista & Cashier",
+        //       description: [
+        //         "Prepared and served beverages according to customer orders, ensuring quality and consistency.",
+        //         "Handled cash and digital transactions accurately while processing customer orders.",
+        //         "Maintained cleanliness and hygiene of the workspace to ensure a safe and pleasant environment.",
+        //         "Provided excellent customer service, ensuring a positive experience for guests.",
+        //       ],
+        //     },
+        //   ],
+        // },
+        // {
+        //   company: "Not Only Toy",
+        //   type: "Part-Time",
+        //   time: "02/01/2025 - 26/01/2025",
+        //   position: [
+        //     {
+        //       name: "Employee",
+        //       description: [
+        //         "Maintained cleanliness and organization of the event space, ensuring a tidy environment.",
+        //         "Assisted customers by answering inquiries about product availability and occasionally providing product recommendations.",
+        //         "Restocked shelves and labeled items in a timely manner to ensure smooth sales operations.",
+        //         "Monitored event area to prevent theft or damage to displayed items.",
+        //         "Assisted my boss with various tasks, including handling payments, retrieving stock, organizing inventory, and counting merchandise.",
+        //       ],
+        //     },
+        //   ],
+        // },
       ],
     },
     project: {
